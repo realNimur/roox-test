@@ -1,0 +1,23 @@
+.button {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 5px 15px;
+  font-size: 12px;
+  color: #fff;
+  line-height: 14px;
+  margin-bottom: 10px;
+  cursor: pointer;
+
+  &_blue {
+    background-color: #4B51EF;
+  }
+
+  &_green {
+    background-color: #52CF4F;
+  }
+
+  &_disabled {
+    background-color: #AFAFAF;
+  }
+}

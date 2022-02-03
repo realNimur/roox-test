@@ -1,0 +1,23 @@
+.profile{
+  width: 100%;
+  max-width: 451px;
+  margin-left: 36px;
+  margin-top: 13px;
+  &-header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+    & button {
+      margin-bottom: 0;
+    }
+  }
+  &-caption{
+    font-size: 14px;
+    line-height:  16.41px;
+  }
+  &-footer{
+    text-align: end;
+  }
+}

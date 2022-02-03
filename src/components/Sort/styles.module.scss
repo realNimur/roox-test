@@ -1,0 +1,11 @@
+.sort{
+  background-color: #BDBDBD;
+  padding: 35px 25px 0 21px;
+  display: flex;
+  flex-direction: column;
+  &__text{
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

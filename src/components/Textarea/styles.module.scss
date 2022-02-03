@@ -1,0 +1,24 @@
+
+.label {
+  font-size: 8px;
+  line-height: 9.38px;
+  margin-bottom: 3px;
+  text-transform: capitalize;
+}
+
+.textarea {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 5px;
+  height: 55px;
+  resize: none;
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  font-size: 10px;
+  line-height: 12px;
+  padding: 10px;
+
+  &:read-only{
+    color: rgba(0, 0, 0, 0.3);
+  }
+}

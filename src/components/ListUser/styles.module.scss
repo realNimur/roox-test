@@ -1,0 +1,15 @@
+.list-user{
+  padding-left: 31px;
+  padding-top: 19px;
+  width: 100%;
+  max-width: 451px;
+  &__caption{
+    margin-bottom: 17px;
+  }
+  &__sign{
+    text-align: end;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 25px;
+  }
+}
